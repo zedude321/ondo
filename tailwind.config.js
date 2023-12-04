@@ -15,10 +15,13 @@ module.exports = {
         'light-gray': 'rgb(156, 156, 156)',
       },
       width: {
-        'xl': '1200px',
-        '2xl': '1420px'
+        'xl': '1200px'
       }
     },
+    fontSize: {
+      'md': '16px',
+      'sm': '14px'
+    }
   },
   plugins: [],
   darkMode: 'media'
