@@ -12,6 +12,7 @@ module.exports = {
         'dark-content': 'rgb(33, 33, 33)',
         'pink': 'rgb(255, 0, 153)',
         'dark-gray': 'rgb(113, 113, 113)',
+        'off-white': 'rgb(156, 156, 156, 0.32)',
         'light-gray': 'rgb(156, 156, 156)',
       },
       width: {
