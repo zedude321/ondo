@@ -7,12 +7,12 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <div className='w-screen h-screen bg-white dark:bg-dark-bg flex justify-center'>
+    <div className='w-screen h-screen bg-white dark:bg-dark-bg flex items-center flex-col'>
       <div className='xl:w-xl w-[95%]'>
         <Header />
 
-        <Footer />
       </div>
+      <Footer />
     </div>
   )
 }
