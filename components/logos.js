@@ -94,6 +94,39 @@ function Logos({logo, className}) {
                 </defs>
             </svg>
         }
+        {logo == 'chat' &&
+            <svg className={"dark:text-white text-black " + className} xmlns="http://www.w3.org/2000/svg" width="25" height="24" fill="none" viewBox="0 0 25 24" >
+                <g clipPath="url(#clip0_301_77)">
+                    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M9.25 4.75h6.5c3.31 0 6 2.69 6 6v2.5c0 3.31-2.69 6-6 6H3.25v-8.5c0-3.31 2.69-6 6-6z" ></path>
+                    <circle cx="8.5" cy="12" r="1" fill="currentColor"></circle>
+                    <path fill="currentColor" d="M13.5 12a1 1 0 11-2 0 1 1 0 012 0z"></path>
+                    <circle cx="16.5" cy="12" r="1" fill="currentColor"></circle>
+                </g>
+                <defs>
+                    <clipPath id="clip0_301_77">
+                        <path fill="currentColor" d="M0 0H24V24H0z" transform="translate(.5)"></path>
+                    </clipPath>
+                </defs>
+            </svg>
+        }
+        {logo == 'heart' &&
+            <svg className={"dark:text-white text-black " + className} xmlns="http://www.w3.org/2000/svg" width="25" height="24" fill="none" viewBox="0 0 25 24" >
+                <g clipPath="url(#clip0_113_1477)">
+                    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M12.5 20.25s-5.808-6.013-7.493-7.727c-1.685-1.715-1.674-4.772.021-6.476a4.369 4.369 0 016.168-.022l.042.043c.445.447.774.98.975 1.544.202.49.286.65.286.65s.085-.149.276-.65a4.642 4.642 0 011.007-1.576 4.366 4.366 0 016.188 0c1.707 1.715 1.64 4.85 0 6.497-1.638 1.647-7.47 7.717-7.47 7.717z" ></path>
+                </g>
+                <defs>
+                    <clipPath id="clip0_113_1477">
+                        <path fill="currentColor" d="M0 0H24V24H0z" transform="translate(.5)"></path>
+                    </clipPath>
+                </defs>
+            </svg>
+        }
+        {logo == 'mail' &&
+            <svg  className={"dark:text-white text-black " + className} xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" >
+                <path stroke="currentColor" strokeMiterlimit="10" strokeWidth="1.5" d="M11.5 15.75a3.75 3.75 0 100-7.5 3.75 3.75 0 000 7.5z" ></path>
+                <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M16.248 20.219a9.25 9.25 0 114.659-5.714c-.312 1.112-1.413 1.745-2.568 1.745v0a3.09 3.09 0 01-3.089-3.09V8.225" ></path>
+            </svg>
+        }
     </>
   );
 }
