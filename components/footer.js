@@ -4,7 +4,7 @@ import SmallLogo from "./smallLogo";
 export default function Footer () {
     return (
         <>
-            <div className="w-[100vw] h-[1px] bg-dark-gray"></div>
+            <div className="w-[100vw] h-[1px] bg-off-white"></div>
             <div className="xl:w-xl w-[95%] mt-10 py-10 flex flex-col gap-4">
                 <SmallLogo className="ml-2" />
                 <div className="flex gap-2">

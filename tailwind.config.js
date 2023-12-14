@@ -19,10 +19,6 @@ module.exports = {
         'xl': '1200px'
       }
     },
-    fontSize: {
-      'md': '16px',
-      'sm': '14px'
-    }
   },
   plugins: [],
   darkMode: 'media'
