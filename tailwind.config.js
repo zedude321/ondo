@@ -16,9 +16,10 @@ module.exports = {
         'light-gray': 'rgb(156, 156, 156)',
       },
       width: {
-        'xl': '1200px'
+        'xl': '1200px',
+        '2xl': '1400px'
       }
-    },
+    }
   },
   plugins: [],
   darkMode: 'media'
