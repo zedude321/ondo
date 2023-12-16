@@ -1,6 +1,10 @@
+import { useRouter } from "next/router"
+
 export default function Logo () {
+    const router = useRouter();
+
     return (
-        <a href="/">
+        <a className="cursor-pointer" onClick={() => router.push('/')}>
             <div className="text-dark-content dark:text-white">
                 <svg xmlns="http://www.w3.org/2000/svg" width="96" height="20" viewBox="0 0 96 22">
                     <path fill="#FF0099" d="M92.045 1.868l-.104.052c-1.408.625-2.06 2.264-1.46 3.669l.052.104A2.827 2.827 0 0094.21 7.15l.104-.052c1.408-.625 2.06-2.264 1.46-3.669l-.052-.104a2.766 2.766 0 00-3.677-1.457z"></path>
