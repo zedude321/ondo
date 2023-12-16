@@ -3,8 +3,11 @@ import Footer from '@/components/footer'
 import Logos from '@/components/logos'
 import SmallLogo from '@/components/smallLogo'
 import Card from '@/components/card'
+import { useRouter } from 'next/router'
 
 export default function Home() {
+  const router = useRouter();
+
   return (
     <div className='bg-white dark:bg-dark-bg flex items-center flex-col overflow-x-hidden'>
       <Header />  
@@ -34,7 +37,7 @@ export default function Home() {
             </div>
           </div>
           <div className='basis-1/2 p-1 lg:p-0'>
-            <div className='text-xs md:text-sm lg:text-md hover:opacity-70 h-full rounded-lg lg:rounded-none transition-all font-semibold text-white bg-black flex flex-col justify-center items-center p-4 cursor-pointer gap-2 lg:border-r  border-off-white'>
+            <div onClick={() => {router.push('/buydata')}} className='text-xs md:text-sm lg:text-md hover:opacity-70 h-full rounded-lg lg:rounded-none transition-all font-semibold text-white bg-black flex flex-col justify-center items-center p-4 cursor-pointer gap-2 lg:border-r  border-off-white'>
               <Logos className="h-10 w-10 !text-white" logo='card'/>
               Дата цэнэглэх
             </div>

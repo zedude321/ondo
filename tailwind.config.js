@@ -18,6 +18,9 @@ module.exports = {
       width: {
         'xl': '1200px',
         '2xl': '1400px'
+      },
+      backgroundImage: {
+        'gradient': 'linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.2))'
       }
     }
   },
